@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using System.Reflection;
 using HarmonyLib;
 using UnityModManagerNet;
 
-namespace MOD_NAME;
+namespace HauntedValley;
 
 public static class Main
 {

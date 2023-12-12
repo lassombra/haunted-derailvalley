@@ -1,9 +1,9 @@
 {
 	"Releases": [
 		{
-			"Id": "MOD_NAME",
-			"Version": "1.0.0",
-			"DownloadUrl": "https://github.com/OWNER/REPOSITORY/releases/download/TAG/FILE_NAME.zip"
+			"Id": "HauntedValley",
+			"Version": "0.0.1.alpha1",
+			"DownloadUrl": "https://github.com/lassombra/huanted-derailvalley/releases/download/0.0.1.alpha1/HauntedValley_v0.0.1.alpha1.zip"
 		}
 	]
 }

@@ -1,9 +1,9 @@
 {
-	"Id": "MOD_NAME",
+	"Id": "HauntedValley",
 	"Version": "1.0.0",
-	"DisplayName": "MOD_NAME",
+	"DisplayName": "Haunted Valley",
 	"Author": "MOD_AUTHOR",
-	"EntryMethod": "MOD_NAME.Main.Load",
+	"EntryMethod": "HauntedValley.Main.Load",
 	"ManagerVersion": "0.27.3",
-	"Repository": "https://raw.githubusercontent.com/OWNER/REPOSITORY/main/repository.json"
+	"Repository": "https://raw.githubusercontent.com/lassombra/huanted-derailvalley/main/repository.json"
 }
