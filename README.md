@@ -9,14 +9,9 @@
 
 <!-- PROJECT TITLE -->
 <div align="center">
-	<h1>Unity Mod Manager Mod Template</h1>
+	<h1>Haunted Derail Valley</h1>
 	<p>
-		A template for creating <a href="http://www.derailvalley.com/">Derail Valley</a> mods that load via <a href="https://www.nexusmods.com/site/mods/21">Unity Mod Manager</a>.
-		<br />
-		<br />
-		<a href="https://github.com/derail-valley-modding/template-umm/issues">Report Bug</a>
-		·
-		<a href="https://github.com/derail-valley-modding/template-umm/issues">Request Feature</a>
+		A rough idea for haunted behaviors in derail valley
 	</p>
 </div>
 
