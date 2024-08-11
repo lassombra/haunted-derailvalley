@@ -36,8 +36,18 @@
 
 ## About The Project
 
-This is a template for Derail Valley mods that load via the Unity Mod Manager mod loader.  
-TODO: Instructions for how mod creators use this template.
+Add Horror elements to Derail Valley
+
+Currently implemented: 
+
+- Inconsistent lights - lights go out / come back on at unpredictable intervals, and never when you'd prefer them to.
+
+Planned features:
+
+- Further light changes to the world
+- Randomly spawning cars on the track - sometimes without colliders, sometimes with
+- Randomly spawning DE2 or 060 that spawns right behind you with its headlights on.
+- ??? Your recommended feature here
 
 
 
