@@ -7,6 +7,8 @@ namespace HauntedValley;
 
 public static class Main
 {
+	public static UnityModManager.ModEntry.ModLogger? Logger { get; private set; }
+
 	// Unity Mod Manage Wiki: https://wiki.nexusmods.com/index.php/Category:Unity_Mod_Manager
 	private static bool Load(UnityModManager.ModEntry modEntry)
 	{
@@ -14,9 +16,9 @@ public static class Main
 
 		try
 		{
+			Main.Logger = modEntry.Logger;
 			harmony = new Harmony(modEntry.Info.Id);
 			harmony.PatchAll(Assembly.GetExecutingAssembly());
-
 			// Other plugin startup logic
 		}
 		catch (Exception ex)

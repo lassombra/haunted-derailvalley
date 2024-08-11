@@ -2,8 +2,8 @@
 	"Releases": [
 		{
 			"Id": "HauntedValley",
-			"Version": "0.0.1.alpha1",
-			"DownloadUrl": "https://github.com/lassombra/huanted-derailvalley/releases/download/0.0.1.alpha1/HauntedValley_v0.0.1.alpha1.zip"
+			"Version": "0.0.1",
+			"DownloadUrl": "https://github.com/lassombra/huanted-derailvalley/releases/download/0.0.1.alpha1/HauntedValley_v0.0.1.zip"
 		}
 	]
 }
