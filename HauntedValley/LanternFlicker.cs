@@ -1,3 +1,4 @@
+using DV.CabControls;
 using System.Collections;
 using UnityEngine;
 
@@ -18,13 +19,13 @@ namespace HauntedValley
 				while (Lantern.knob == null) yield return new WaitForSeconds(1.0f);
 				var target = UnityEngine.Random.Range(0.1f, Lantern.wickSize);
 				while (Lantern.wickSize > target) {
-					Lantern.knob.SetValue(Lantern.wickSize - 0.1f);
+					Lantern.OnWickValueChanged(new ValueChangedEventArgs(Lantern.wickSize, Lantern.wickSize - 0.1f));
 					yield return new WaitForSeconds(Random.Range(0.1f, 0.3f));
 				}
 				target = UnityEngine.Random.Range(Lantern.wickSize, 1.0f);
 				while (Lantern.wickSize < target)
 				{
-					Lantern.knob.SetValue(Lantern.wickSize + 0.1f);
+					Lantern.OnWickValueChanged(new ValueChangedEventArgs(Lantern.wickSize, Lantern.wickSize + 0.1f));
 					yield return new WaitForSeconds(Random.Range(0.1f, 0.3f));
 				}
 			}
