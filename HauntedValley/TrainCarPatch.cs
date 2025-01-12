@@ -1,15 +1,9 @@
 using DV;
 using DV.Simulation.Cars;
-using DV.Simulation.Controllers;
 using DV.Simulation.Ports;
 using DV.ThingTypes;
 using HarmonyLib;
-using HauntedValley;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 
 namespace HauntedValley
@@ -31,6 +25,11 @@ namespace HauntedValley
 
 		private static void PatchFlicker(TrainCarLivery Type, GameObject prefab)
 		{
+			var existingFlicker = prefab.GetComponentInChildren<FlickerFuseController>();
+			if (existingFlicker != null)
+			{
+				return;
+			}
 			var flickerController = prefab.AddComponent<FlickerFuseDefinition>();
 			flickerController.ID = "headlightFlicker";
 			var headLightController = prefab.GetComponentInChildren<HeadlightsMainController>();
