@@ -15,6 +15,7 @@
 		  <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Derail Valley\DerailValley_Data\Managed\DV.ThingTypes.dll</HintPath>
 		</Reference>
 	</ItemGroup>
+	
 
 	<!-- Unity -->
 	<ItemGroup>
@@ -31,6 +32,17 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
 		<PackageReference Include="Nullable" Version="1.3.1" PrivateAssets="all" />
+	</ItemGroup>
+
+	<!-- Publicizer config-->
+	<ItemGroup>
+		<PackageReference Include="Krafs.Publicizer" Version="2.2.1">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+	<ItemGroup>
+		<Publicize Include="Assembly-CSharp" IncludeVirtualMembers="false" IncludeCompilerGeneratedMembers="false" />
 	</ItemGroup>
 
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
