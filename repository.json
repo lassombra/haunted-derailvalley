@@ -9,6 +9,11 @@
 			"Id": "HauntedValley",
 			"Version": "0.0.2",
 			"DownloadUrl": "https://github.com/lassombra/haunted-derailvalley/releases/download/0.0.2/HauntedValley.zip"
+		},
+		{
+			"Id": "HauntedValley",
+			"Version": "0.0.3",
+			"DownloadUrl": "https://github.com/lassombra/haunted-derailvalley/releases/download/0.0.3/HauntedValley.zip"
 		}
 	]
 }
