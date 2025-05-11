@@ -43,17 +43,6 @@ namespace HauntedValley
 			{
 				cabLights.powerFuseId = flickerController.ID + "." + flickerController.cablightFuse.id;
 			}
-			var lampPorts = Type.interiorPrefab?.GetComponentsInChildren<LampPortReader>();
-			if (lampPorts != null && lampPorts.Length > 0)
-			{
-				foreach (var entry in lampPorts)
-				{
-					if (entry != null)
-					{
-						entry.fuseId = flickerController.ID + "." + flickerController.dsahFuse.id;
-					}
-				}
-			}
 		}
 	}
 }
